@@ -50,10 +50,15 @@ Resources referenced: Pieter Abbeel's slides & lecture videos
 ## Additional scenarios
 
 5(a).  Various plots are in the folder (additional scenarios). 
+
        The original, with low error and discount 0.9 results in taking the right path, +10 reward.
+
        "Case1.png" : low error, discount 0.1 results in taking the left path, +1 reward. 
+
        "Case2.png" : mid error, discount 0.9 results in taking the left path, +10 reward.
+
        "Case3.png" : no error, discount 0.2 results in taking the right path, +1 reward.
+
        Increasing the error probability causes the path to avoid the -100 reward, and go left.  
        Making the discount factor closer to 0 causes the path to pursue the +1 reward instead.
        The right path is pursued only with 0 or very low error, else the left path is pursued. 
